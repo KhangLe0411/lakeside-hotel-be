@@ -35,4 +35,9 @@ public class RoomController {
     public List<String> getRoomTypes(){
         return roomService.getAllRoomTypes();
     }
+
+    @GetMapping("/all-rooms")
+    public ResponseEntity<List<RoomResponse>> getAllRooms(){
+        return null;
+    }
 }
